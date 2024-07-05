@@ -8,26 +8,6 @@ body {
 header {
     background-color: #f0f0f0;
 }
-  
-/* nav {
-  display: grid;
-  grid-template-columns: repeat(2, 90% 10%);
-  align-items: center;
-  width: 100%;
-  
-} */
-
-/* nav a:first-child{
-  display: flex;
-  justify-content: center;
-  padding:10px 0;
-}
-nav a:last-child{
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 5px;
-  text-align: center;
-} */
 
 nav{
   display: flex;
@@ -40,7 +20,52 @@ nav a{
   text-decoration: none;
   color: black;
 }
-  
+
+#subheader{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+}
+
+#subheader h1{
+  text-align: center;
+  margin-left:300px;
+}  
+
+
+form input{
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #add4f4;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #main-content {
     padding: 20px;
 }

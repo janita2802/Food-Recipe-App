@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Recipe App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav id="navbar"></nav>
     </header>
-    <main id="main-content">
+    <div id="subheader">
         <h1>Explore Delicious Dishes</h1>
-        <input type="search" title=" Millions of dishes at your fingertips" placeholder="Search for Your Perfect Recipe">
-        <div id="Recipes"></div>
+        <form class="search" action="submit">
+            <input type="text"  name="search" title="Search for Your Perfect Recipe" placeholder="Search Recipe">
+            <button type="submit" title="Millions of dishes at your fingertips"><i class="fa fa-search"></i></button>
+        </form>   
+    </div>
+    <main id="main-content">
     </main> 
 </body>
 <script src="index.js" type="module"></script>
