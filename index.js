@@ -75,6 +75,7 @@ import nav from "./nav.js";
 const navbar = document.getElementById("navbar");
 navbar.innerHTML = nav;
 
+
 let currentPage = 1;
 const limit = 6;
 let allMealsData; 
@@ -160,6 +161,7 @@ formaction.addEventListener("submit", async function(event){
         const data = await response.json();
         console.log(data);
         displayData(data.meals);
+        
 
     }
     catch(error){
