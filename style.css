@@ -85,12 +85,14 @@ form.example::after {
   width:100%; 
   box-shadow: rgba(6, 6, 6, 0.78) 0px 1px 4px;
   background-color: #e1e3be;
+  height:550px;
 }
 .card img{
   width: 80%;
   border-radius: 10px;
 }
 .card h2{
+  font-size: 16px;
   font-weight: 600;
   background-color: #ff9800;
   color: white;
@@ -99,6 +101,7 @@ form.example::after {
   margin: 20px 0;
   padding: 8px;
   text-align: center;
+  width: 90%;
 }
 .card button{
   padding:10px;
@@ -107,6 +110,17 @@ form.example::after {
   cursor: pointer;
   margin: 20px 0;
 }
-  
+
+.card button:hover{
+  background-color: #ff9800;
+}
+
+#pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  margin: 10px 0;;
+}
 
   
