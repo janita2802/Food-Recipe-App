@@ -68,6 +68,44 @@ form.example::after {
 
 #main-content {
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap:10px;
+    background-color: rgb(100 97 68);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100%; 
+  box-shadow: rgba(6, 6, 6, 0.78) 0px 1px 4px;
+  background-color: #e1e3be;
+}
+.card img{
+  width: 80%;
+  border-radius: 10px;
+}
+.card h2{
+  font-weight: 600;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  padding: 8px;
+  text-align: center;
+}
+.card button{
+  padding:10px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px 0;
 }
   
 
