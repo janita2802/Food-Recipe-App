@@ -32,6 +32,9 @@ function displayData(data) {
 
     const detailsbtn = document.createElement("button");
     detailsbtn.textContent = "See More Options";
+    detailsbtn.addEventListener("click",function(){
+        window.location.href = "random.html";
+    })
 
     card.append(title, image, detailsbtn);
     meals_container.append(card);
